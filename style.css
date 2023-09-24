@@ -64,3 +64,19 @@ nav ul li a:hover:after {
     margin-top: 25px;
     margin-bottom: 30px;
 }
+.images img{
+	height: 70%;
+	max-width: 100%;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transform: translateX(-17%);
+	transition: bottom 1s, left 1s;
+}
+.images:hover .gieyan{
+	left: 45%;
+}
+.images .gieyan{
+	padding-left: 30%;
+	padding-bottom: 12%;
+}
